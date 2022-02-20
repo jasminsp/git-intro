@@ -42,3 +42,5 @@ git checkout <branch-name>
 13. Merge branch to master
 git merge <branch-name-to-be-merged>
 
+14. Pull updates from remote
+git pull
