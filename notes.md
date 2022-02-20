@@ -1,39 +1,44 @@
 Git commands:
 
-Clone remote repo from github
+Exersice 1
+1. Clone remote repo from github
 git clone <url>
 
-Remove existing origin
+2. Remove existing origin
 git remote remove origin
 
-Add new origin
+3. Add new origin
 git remote add origin <new-url>
 
-Add files to commit
+4. Add files to commit
 git add .
 
-Commit changes
+5. Commit changes
 git commit -m 'message'
 
-Push to remote
+6. Push to remote
 git push
 
-Check git status
+7. Check git status
 git status
 
-Set upstream, the branch that will be followed from main
+8. Set upstream, the branch that will be followed from main
 git push --set-upstream origin master
 
-Add a new file
+9. Add a new file
 touch <new-file-name>
 
-Edit file
+10. Edit file
 vi <file-name>
 
-Create new branch
+
+Exersice 2
+11. Create new branch
 git checkout -b <branch-name>
 
-Swap branch
+12. Swap branch
 git checkout <branch-name>
 
+13. Merge branch to master
+git merge <branch-name-to-be-merged>
 
