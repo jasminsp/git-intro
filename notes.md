@@ -44,3 +44,9 @@ git merge <branch-name-to-be-merged>
 
 14. Pull updates from remote
 git pull
+
+15. Delete branch locally
+git branch -d <localBranchName>
+
+16. Delete branch remotely
+git push origin --delete <remoteBranchName>
